@@ -1,4 +1,5 @@
-https://codepen.io/Jmontecillo/pen/PoqPwVK?editors=1100
+
+https://codepen.io/Jmontecillo/pen/PoqPwVK
 
 <!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
 <!--
@@ -92,17 +93,35 @@ go to git hub
 give you your collaborators
 make a new pull request
 comment your changes and report.
+merge the file to the master branch.
+Repeat lines 88 to 96 to update.
 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-
+Block elements are HTML elements that can take up space as needed, for example adding padding. Inline elements only take the space they need. 
     2. What happens when an element is positioned absolutely? 
+When an element is in absolute, it is positioned in a particular spot and takes no consideration the space of other elements.  
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+You make it into a block element. 
 
+<span class="makeBlockElement"> </span>
+  .makeBlockElement {
+      display: block;
+  }
+
+    4. Name 3 elements that are diplay block by default,
+     2 elements that are display inline by default 
+     and 1 element that is display inline-block by default
+
+     Display block elements: <p> <header> <h1> throught <h6>
+    Inline elemetns: span and img (which to make helps me a lot in knowing why I have trouble working with images.)
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        The box model in what is in an element and around the element, the spaceing of the element(width, height, padding), the border, and the spacing around the element (margin). 
+I found an article which talks about the downsides of the box-model. My fix for this would be to create a more direct language and add more features which allow us to design as we intend. I personally like the .less language because it makes it easier to orgazine. As I learn more, I will be able to see other problems with it and maybe be able to help build a better system for it. Especiallly after learning .less and .sass.
+
+https://pressupinc.com/blog/2014/01/whats-wrong-css-box-model-fix/
 
 
    --> 
